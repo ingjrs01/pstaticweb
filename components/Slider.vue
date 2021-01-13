@@ -5,8 +5,10 @@
 </template>
 <script>
 export default {
-  data: function() {
-    nombre: "Mi Nombre",
-  }
-}
+  data: function () {
+    return {
+      nombre: "Mi Nombre",
+    };
+  },
+};
 </script>

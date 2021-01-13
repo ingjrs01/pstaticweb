@@ -4,7 +4,11 @@
     <div>
       <Slider />
       <nuxt-content :document="doc" />
-      <p><NLink to="/" class="button--grey">Volver</NLink></p>
+      <div>
+        <p>Despues de esto va lo importante</p>
+        {{ $t("welcome") }}
+        <p>Fin</p>
+      </div>
     </div>
   </div>
 </template>
@@ -23,8 +27,13 @@ export default {
       name: "lalala",
     };
   },
-  async asyncData({ $content, params }) {
-    const doc = await $content("home").fetch();
+  async asyncData(context) {
+    const { $content, app } = context;
+    console.log(app.i18n.locale);
+    //const posts = await $content(`${app.i18n.locale}/blog'`).fetch();
+    console.log("Idioma detectado");
+    console.debug(app);
+    const doc = await $content(`${app.i18n.locale}/home`).fetch();
 
     return {
       doc,
