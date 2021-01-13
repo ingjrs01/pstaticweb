@@ -29,10 +29,6 @@ export default {
   },
   async asyncData(context) {
     const { $content, app } = context;
-    console.log(app.i18n.locale);
-    //const posts = await $content(`${app.i18n.locale}/blog'`).fetch();
-    console.log("Idioma detectado");
-    console.debug(app);
     const doc = await $content(`${app.i18n.locale}/home`).fetch();
 
     return {
