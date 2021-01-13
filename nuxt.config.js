@@ -17,9 +17,9 @@ export default {
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
 
-  css: [],
+  css: ["vue-slick-carousel/dist/vue-slick-carousel.css"],
 
-  plugins: [],
+  plugins: [{ src: "./plugins/vue-slick-carousel.js" }],
 
   modules: [
     "@nuxt/content",

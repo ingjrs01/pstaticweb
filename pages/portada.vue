@@ -10,6 +10,7 @@
         <p>Fin</p>
       </div>
     </div>
+    pie de página
   </div>
 </template>
 
