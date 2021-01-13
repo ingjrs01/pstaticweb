@@ -17,31 +17,48 @@ export default {
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
 
-  /*
-   ** Global CSS
-   ** Doc: https://nuxtjs.org/api/configuration-css
-   */
   css: [],
 
-  /*
-   ** Plugins to load before mounting the App
-   ** Doc: https://nuxtjs.org/guide/plugins
-   */
   plugins: [],
 
-  /*
-   ** Nuxt.js modules
-   ** Doc: https://nuxtjs.org/guide/modules
-   */
   modules: [
     "@nuxt/content",
     "@nuxtjs/bulma",
-    // Doc: https://http.nuxtjs.org
-    //'@nuxt/http',
+    "nuxt-i18n",
     // TODO: Remove it if you want to eject from codeSandbox
     "./codesandbox"
   ],
 
+  i18n: {
+    locales: ["en", "fr", "es"],
+    defaultLocale: "en",
+    vueI18n: {
+      fallbackLocale: "en",
+      messages: {
+        en: {
+          welcome: "Welcome",
+          menu_portada: "Home",
+          menu_vinos: "Wines",
+          menu_mapa: "Map",
+          menu_contacto: "Contact"
+        },
+        fr: {
+          welcome: "Bienvenue",
+          menu_portada: "Inicio",
+          menu_vinos: "Vinues",
+          menu_mapa: "Mapa",
+          menu_contacto: "Contacto"
+        },
+        es: {
+          welcome: "Bienvenido",
+          menu_portada: "Inicio",
+          menu_vinos: "Vinos",
+          menu_mapa: "Mapa",
+          menu_contacto: "Contacto"
+        }
+      }
+    }
+  },
   /*
    ** HTTP module configuration
    */
