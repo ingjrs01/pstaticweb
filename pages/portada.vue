@@ -2,6 +2,7 @@
   <div class="cotainer">
     <Cabecera />
     <div>
+      <Slider />
       <nuxt-content :document="doc" />
       <p><NLink to="/" class="button--grey">Volver</NLink></p>
     </div>
@@ -10,10 +11,12 @@
 
 <script>
 import Cabecera from "~/components/Cabecera";
+import Slider from "~/components/Slider";
 
 export default {
   components: {
     Cabecera,
+    Slider,
   },
   data: function () {
     return {
