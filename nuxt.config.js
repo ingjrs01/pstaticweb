@@ -34,6 +34,7 @@ export default {
    ** Doc: https://nuxtjs.org/guide/modules
    */
   modules: [
+    "@nuxt/content",
     // Doc: https://http.nuxtjs.org
     //'@nuxt/http',
     // TODO: Remove it if you want to eject from codeSandbox
