@@ -35,6 +35,7 @@ export default {
    */
   modules: [
     "@nuxt/content",
+    "@nuxtjs/bulma",
     // Doc: https://http.nuxtjs.org
     //'@nuxt/http',
     // TODO: Remove it if you want to eject from codeSandbox

@@ -1,9 +1,6 @@
 <template>
   <div class="cotainer">
     <div>
-      <h1>Hola desde arriba</h1>
-      <h2>{{ name }}</h2>
-      <p>Aqui el contenido</p>
       <nuxt-content :document="doc" />
       <p><NLink to="/" class="button--grey">Volver</NLink></p>
     </div>
