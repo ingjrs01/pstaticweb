@@ -1,5 +1,6 @@
 <template>
   <div class="cotainer">
+    <Cabecera />
     <div>
       <nuxt-content :document="doc" />
       <p><NLink to="/" class="button--grey">Volver</NLink></p>
@@ -8,7 +9,12 @@
 </template>
 
 <script>
+import Cabecera from "~/components/Cabecera";
+
 export default {
+  components: {
+    Cabecera,
+  },
   data: function () {
     return {
       name: "lalala",
