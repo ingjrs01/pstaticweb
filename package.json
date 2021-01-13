@@ -1,7 +1,7 @@
 {
-  "name": "codesandbox-nuxt",
+  "name": "static-web",
   "version": "1.0.0",
-  "description": "Nuxt starter for CodeSandBox",
+  "description": "Probando cosillas",
   "author": "Nuxt.js Team",
   "private": true,
   "scripts": {
@@ -15,5 +15,6 @@
     "@nuxt/content": "1.11.1",
     "nuxt": "^2.12.2",
     "reqlim": "^0.0.0"
-  }
+  },
+  "keywords": []
 }
