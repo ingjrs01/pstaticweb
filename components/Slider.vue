@@ -1,6 +1,5 @@
 <template>
   <div>
-    <h3>{{ nombre }}</h3>
     <VueSlickCarousel
       :arrows="true"
       :dots="true"
