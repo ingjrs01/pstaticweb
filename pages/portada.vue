@@ -4,13 +4,7 @@
     <div>
       <Slider />
       <nuxt-content :document="doc" />
-      <div>
-        <p>Despues de esto va lo importante</p>
-        {{ $t("welcome") }}
-        <p>Fin</p>
-      </div>
     </div>
-    pie de página
     <Footer />
   </div>
 </template>
