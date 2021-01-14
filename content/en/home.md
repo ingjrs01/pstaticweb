@@ -1,6 +1,6 @@
 <h1 class="title">Nuestros Vinos:</h1>
 
-<div class="columns">
+<div class="columns"  id="vinos">
   <div class="column has-text-centered">
     <a href="/vinos/generacion"><img src="/articles/home/generacion_s.png" alt="" /><h2 class="subtitle">3ª Generación</h2></nuxt-link>
     

@@ -17,9 +17,16 @@
             $t("home")
           }}</nuxt-link>
           <!--<a href="" class="button">{{ $t("menu_portada") }}</a>-->
-          <a href="" class="button">{{ $t("menu_vinos") }}</a>
+          <nuxt-link class="button" :to="localePath('/portada#vinos')">{{
+            $t("menu_vinos")
+          }}</nuxt-link>
+          <!--<a href="" class="button">{{ $t("menu_vinos") }}</a>-->
           <a href="" class="button">{{ $t("menu_mapa") }}</a>
+          <nuxt-link :to="{ path: '/portada' }" v-scroll-to="{ el: '#vinos' }"
+            >Enlace</nuxt-link
+          >
           <a href="" class="button">{{ $t("menu_contacto") }}</a>
+          <button v-scroll-to="{ element: '#vinos' }">Scroll to</button>
         </div>
       </div>
     </nav>
