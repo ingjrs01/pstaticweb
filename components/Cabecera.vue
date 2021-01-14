@@ -13,7 +13,10 @@
       </div>
       <div class="navbar-end">
         <div class="navbar-item">
-          <a href="" class="button">{{ $t("menu_portada") }}</a>
+          <nuxt-link class="button" :to="localePath('/portada')">{{
+            $t("home")
+          }}</nuxt-link>
+          <!--<a href="" class="button">{{ $t("menu_portada") }}</a>-->
           <a href="" class="button">{{ $t("menu_vinos") }}</a>
           <a href="" class="button">{{ $t("menu_mapa") }}</a>
           <a href="" class="button">{{ $t("menu_contacto") }}</a>

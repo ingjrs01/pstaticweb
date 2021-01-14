@@ -1,7 +1,7 @@
-# Albariño O Avó Roxo
+# Albariño Serylau
 
 - **Origen**: D.O. Rías Baixas – Subzona Salnés
-- **Cosecha**: 2016
+- **Cosecha**: 2020
 - **Tipo**: Blanco
 - **Uva**: Albariño 100%
 - **Grado alcohólico**: 12 %vol
