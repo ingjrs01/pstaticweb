@@ -11,17 +11,20 @@
       </div>
     </div>
     pie de página
+    <Footer />
   </div>
 </template>
 
 <script>
 import Cabecera from "~/components/Cabecera";
 import Slider from "~/components/Slider";
+import Footer from "~/components/Footer";
 
 export default {
   components: {
     Cabecera,
     Slider,
+    Footer,
   },
   data: function () {
     return {
