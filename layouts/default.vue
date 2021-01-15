@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <Nuxt />
+    <back-to-top text="Subir" visibleoffset="500"></back-to-top>
   </div>
 </template>
 
@@ -62,5 +63,9 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #2E495E;
+}
+
+.vue-back-to-top {
+  background-color: #ababab;
 }
 </style>

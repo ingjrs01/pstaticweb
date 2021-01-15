@@ -19,7 +19,10 @@ export default {
 
   css: ["vue-slick-carousel/dist/vue-slick-carousel.css"],
 
-  plugins: [{ src: "./plugins/vue-slick-carousel.js" }],
+  plugins: [
+    { src: "./plugins/vue-slick-carousel.js" },
+    { src: "~plugins/vue-backtotop.js", ssr: false }
+  ],
 
   modules: [
     "@nuxt/content",
