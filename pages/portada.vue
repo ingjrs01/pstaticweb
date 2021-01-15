@@ -27,6 +27,8 @@ export default {
   },
   async asyncData(context) {
     const { $content, app } = context;
+    console.log("Probando cosas");
+    console.log(app.i18n.locale);
     const doc = await $content(`${app.i18n.locale}/home`).fetch();
 
     return {
