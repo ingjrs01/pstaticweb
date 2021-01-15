@@ -25,6 +25,7 @@ export default {
     "@nuxt/content",
     "@nuxtjs/bulma",
     "nuxt-i18n",
+    "vue-scrollto/nuxt",
     //"vue-scrollto/nuxt",
     // TODO: Remove it if you want to eject from codeSandbox
     "./codesandbox"

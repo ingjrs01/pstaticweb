@@ -17,7 +17,7 @@
     "nuxt": "^2.12.2",
     "nuxt-i18n": "6.18.0",
     "reqlim": "^0.0.0",
-    "vue-scroll": "2.1.13",
+    "vue-scrollto": "2.20.0",
     "vue-slick-carousel": "1.0.6"
   },
   "keywords": []

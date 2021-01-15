@@ -1,4 +1,4 @@
-<h1 class="title">Nuestros Vinos:</h1>
+<h1 class="title">Our Wines:</h1>
 
 <div class="columns"  id="vinos">
   <div class="column has-text-centered">
